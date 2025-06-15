@@ -26,7 +26,6 @@ Welcome to my Cybersecurity Internship repository, completed under the mentorshi
   - Server info leaks (`X-Powered-By`)
 - Tools Used: OWASP ZAP, Chrome Dev Tools, Manual Inspection
 
-📄 [Week 1 Report](./reports/Week-1-Security-Assessment.md)
 
 ---
 
@@ -37,7 +36,6 @@ Welcome to my Cybersecurity Internship repository, completed under the mentorshi
 - Hardened cookies with `HttpOnly`, `SameSite`, `Secure`
 - Removed unsafe inline JS and wildcard sources from CSP
 
-📄 [Week 2 Report](./reports/Week-2-Security-Hardening.md)
 
 ---
 
@@ -46,8 +44,6 @@ Welcome to my Cybersecurity Internship repository, completed under the mentorshi
 - Integrated **Winston** for structured logging to `security.log`
 - Validated final checklist of security controls
 - Prepared video demo and all documentation for submission
-
-📄 [Week 3 Report](./reports/Week-3-Advanced-Security.md)
 
 ---
 
@@ -59,8 +55,6 @@ Includes:
 - Screenshots of key implementation and scan results
 - Logging setup
 - Tools used & key learnings
-
-📄 [Final_Report.md](./Final_Report.md)
 
 ---
 
