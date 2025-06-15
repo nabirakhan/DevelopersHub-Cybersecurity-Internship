@@ -58,75 +58,45 @@ Includes:
 
 ---
 
-## 📋 Security Checklist
 
-```txt
-☑ All inputs validated
-☑ Passwords hashed using bcrypt
-☑ JWT implemented for authentication
-☑ Helmet used for secure HTTP headers
-☑ Logging enabled with Winston
-☑ SQL Injection tested with payloads
-☑ XSS vulnerabilities removed
-☑ CSRF protection using csurf
-☑ Session security set (httpOnly, sameSite)
-☑ Morgan and Winston logging active
-☑ Content Security Policy applied with Helmet
+## Security Checklist
 
-
-# 🛠️ Tools & Technologies
-
-- **OWASP ZAP** – Vulnerability scanning  
-- **Helmet.js** – HTTP header protection  
-- **csurf** – CSRF middleware  
-- **Winston** – Logging system  
-- **Nmap** – Port scanning  
-- **connect-mongo** – Secure session storage  
-- **Express.js** – Web application framework  
+- [x] All inputs validated
+- [x] Passwords hashed using bcrypt
+- [x] JWT used for authentication
+- [x] HTTP headers hardened with Helmet
+- [x] Logging enabled with Winston
+- [x] SQL Injection tested
+- [x] XSS vulnerabilities removed
+- [x] CSRF protection via csurf
+- [x] Secure session cookies (SameSite, HttpOnly)
+- [x] CSP configured
+- [x] Morgan and Winston used for access and event logging
 
 ---
 
-# 🎓 Key Learnings
+## Tools & Technologies
 
-- Conducting full-stack vulnerability assessments  
-- Secure coding practices using modern middleware  
-- Building audit logs and detecting suspicious activity  
-- Balancing usability with strict security measures  
-- Real-world application of OWASP Top 10 principles  
-
----
-
-# 📷 Screenshots
-
-Screenshots of:
-- OWASP ZAP scans  
-- Security headers in browser  
-- CSRF token verification  
-- Log samples in `security.log`  
-
-🗂️ Included in the `screenshots/` directory and embedded in the `Final_Report.md`.
+- OWASP ZAP – Vulnerability scanning  
+- Helmet.js – HTTP header security  
+- csurf – CSRF protection  
+- Winston – Logging system  
+- Nmap – Network port scanning  
+- connect-mongo – Secure session storage  
+- Express.js – Web application framework
 
 ---
 
-# 📽️ Demo
+## Key Learnings
 
-A short video demo of:
-- The secured application
-- Real-time logging behavior via Winston
-- Security headers and CSRF token verification
-
-📁 Available in the root directory or embedded in the `Final_Report.md`.
-
----
-
-# 🏁 Conclusion
-
-This internship experience provided valuable **hands-on training** in:
-
-- Ethical hacking  
-- Secure web development  
-- Vulnerability remediation  
-
-It demonstrated how **practical security enhancements** can significantly improve the **resilience of modern web applications** through proper coding standards, middleware usage, and real-world simulation of threats.
+- Performing vulnerability assessments using industry tools
+- Implementing middleware-based security in Node.js
+- Creating structured audit logs
+- Balancing security and usability in web applications
+- Applying real-world OWASP Top 10 principles
 
 ---
+
+## Conclusion
+
+This internship provided practical experience in ethical hacking, secure web development, and real-world remediation. The final system is significantly more secure and resilient against common web-based attacks while preserving performance and usability.
